@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(160, 134, 134);
+    width:500px ;
+}
+.back{ 
+    width: 823px;
+    height: 376px;
+    background-color: beige;
+    padding-top: 7px;
+    margin-left: 147px;
+    margin-top: 137px;
+}
+.firstc 
+{   
+    display: grid;
+    grid-template-columns: repeat(1,245px);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    margin-top: 0x;
+}
+
+.pur
+{
+    background-color: #db003d;
+    width: 825px;
+    height: 79px;
+    margin-top: -4px;
+    margin-left: 0px;
+}
+
+.img img 
+{
+    width: 300px;
+    height: 350px;
+}
+.img 
+{
+    margin-top: -340px;
+    margin-left: 524px;
+
+}
+  .fa-brands
+  
+  {
+    color: beige;
+    font-size: 40px;
+    width: 0px;
+    height: 41px;
+    margin-top: -40px;
+    margin-left: 155px;
+    padding-bottom: 10px;
+}
+ 
+.container
+{  
+    position: relative;
+    margin-top: 36px;
+    margin-right: 37px;
+    font-size: 10px;
+
+}
+.container .wrapper{
+    width: 199px;
+    height: 287px;
+    
+    margin: 10px auto;
+    overflow: hidden;
+   
+    
+}
+.container .slider-holder
+{
+display: grid;
+grid-template-columns: repeat(3,100%);
+height: 100%;
+animation: slide 15s ease infinite;
+}
+
+
+.container .button-holder
+{
+    position: absolute;
+    bottom: 4%;
+    left: 47.5%;
+}
+.container .button-holder .dots 
+{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #db003d;
+    margin: 3px;
+}
+
+
+@keyframes slide {
+    
+   0%{transform:translateX(0%)}
+   10%{transform:translateX(-100%)}
+   20%{transform:translateX(-100%)}
+   30%{transform:translateX(-100%)}
+   40%{transform:translateX(-200%)}
+   50%{transform:translateX(-200%)}
+   60%{transform:translateX(-200%)}
+   70%{transform:translateX(0%)}
+   80%{transform:translateX(0%)}
+   90%{transform:translateX(0%)}
+   100%{transform:translateX(0%)}
+}
+.row
+{  
+    margin-top: 14%;
+}
+ h3
+  { 
+    color: #db003d;
+    margin-left: 5px;
+}
+.profile
+{
+    position: absolute;
+    margin-top: 80PX;
+    margin-left: 10px;
+
+} 
+.profile p 
+ {
+    color: #db003d;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+}
+h2{ font-size: 25px;}
+.wrapper{margin-top: 100px;}
+.icon h2 { color: beige;}
