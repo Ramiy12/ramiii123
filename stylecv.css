@@ -1,0 +1,57 @@
+body{
+    width: 950px;
+}
+.firstc 
+{        display: grid;
+    grid-template-columns: repeat(1,245px);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    margin-top: -464px;
+}
+
+.col
+{
+   font-size: 15px;
+}
+.pic img
+{ 
+    width: 249px;
+    margin-top: 9px;
+    margin-left: 327px;
+}
+.white
+{  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.row {font-size: 15px;} 
+.row h3 { margin-left: 10px;}     
+.profile
+{
+    position: absolute;
+    margin-top: 100PX;
+    margin-left: 600PX;
+
+} 
+.profile button 
+{
+    
+    width: 65px;
+    font-size: 10px;
+    color: #fff;
+    background-color:#9BA3EB ;
+    border-color:#9BA3EB;
+    text-align: center;
+}
+.skils{background-color: #646FD4;}
+.edu {background-color:#9BA3EB ;}
+.personal_info h3 {color: #242F9B;}
+.language h3{color: #646FD4;}
+.hob h3 { color: #9BA3EB;}
+ .profile p 
+ {
+    color: #242F9B;
+    font-family: 'Dancing Script', cursive;
+}
